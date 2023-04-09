@@ -1,0 +1,17 @@
+.header,
+.main,
+.footer {
+    background-color: #1f2937;
+}
+
+.logo {
+    max-width: 50px;
+}
+
+img {
+    max-width: 250px;
+}
+
+.header {
+    display: flex;
+}
