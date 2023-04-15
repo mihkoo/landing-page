@@ -1,6 +1,7 @@
 body {
-    background-color: #1f2937;
     font-family: Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 .logo {
@@ -11,6 +12,18 @@ h2,
 a {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.attribution {
+    color: black;
+}
+
+.icons {
+    max-width: 150px;
+    outline: solid;
+    outline-color: #3882f6;
+    outline-offset: 8px;
+    border-radius: 10px;
 }
 
 h1 {
@@ -31,8 +44,8 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 25px;
-    margin: 16px;
+    padding: 50px;
+    background-color: #1f2937;
 }
 
 .links {
@@ -42,10 +55,10 @@ img {
 
 .main {
     display:flex;
-    padding: 0px 25px;
-    margin: 16px;
+    padding: 50px;
     justify-content: space-between;
     gap: 16px;
+    background-color: #1f2937;
 }
 
 .one,
@@ -70,8 +83,34 @@ h3 {
 .info {
     background-color: white;
     padding: 0px 25px;
-    margin: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.drinks {
+    display: flex;
+    padding: 25px;
+    gap: 46px;
+}
+
+.glug {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(52, 52, 52);
 }
