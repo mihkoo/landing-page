@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -61,6 +61,13 @@ img {
     background-color: #1f2937;
 }
 
+.footer {
+    background-color: #1f2937;
+    padding: 16px;
+    text-align: center;
+    color: #f9faf8;;
+}
+
 .one,
 .call {
     background-color: #3882f6;
@@ -81,7 +88,6 @@ h3 {
 }
 
 .info {
-    background-color: white;
     padding: 0px 25px;
     display: flex;
     flex-direction: column;
@@ -104,8 +110,9 @@ h3 {
 .quote {
     background-color: #e5e7eb;
     padding: 25px;
-    font-size: 20px;
-    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h4 {
@@ -113,4 +120,43 @@ h4 {
     font-weight: 100;
     font-style: italic;
     color: rgb(52, 52, 52);
+    margin: 0px;
+}
+
+.love {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 36px;
+}
+
+#me {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-self: flex-end;
+}
+
+.call {
+    margin: 50px;
+    padding: 16px 64px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.do-it {
+    font-weight: bold;
+}
+
+.two {
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+    border-radius: 8px;
+    border: solid;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    padding: 8px;
 }
